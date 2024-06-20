@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{margin: 0;
+padding: 0;
+}
+/*블럭 1번*/
+.box1{
+width: 100%;
+height: 1079px;
+background-image: url(img/BG1.png);
+background-position: center;
+background-size: cover;
+}
+.con1{
+    width: 1100px;
+    height: 1079px;
+    margin: 0 auto;
+    position: relative;
+}
+.img01{
+display: block;
+position: absolute;
+top: 56px;
+}
+.img02{
+display: block;
+position: absolute;
+bottom: 0px;
+right: 0px;
+}
+.txt1{
+    padding-top: 216px;
+    width: 1100px;
+    height: 101px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 101px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-align: left;
+}
+.txt2{
+    padding-top: 100px;
+    width: 1100px;
+    height: 290px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 57px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-align: left;
+}
+/*블럭 2번*/
+.box2{
+    width: 100%;
+    height: 1854px;
+    background-image: url(img/BG2.png);
+    background-position: center;
+    background-size: cover;
+}
+.con2{
+    width: 1100px;
+    height: 1854px;
+    margin: 0 auto;
+}
+.img03{
+    display: block;
+    margin: 0 auto;
+    padding-top: 310px;
+}
+.txt3{
+    padding-top: 151px;
+    width: 1100px;
+    height: 333px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 57px;
+    letter-spacing: -0.7px;
+    color: #484848;
+    text-align: center;
+}
+/*블럭 3번*/
+.box3{
+    width: 100%;
+    height: 858px;
+    background-image: url(img/BG3.png);
+    background-position: center;
+    background-size: cover;
+}
+.con3{
+    width: 1100px;
+    height: 858px;
+    margin: 0 auto;
+    text-align: center;
+}
+.con3 > img{
+    padding-top: 184px;
+}
+/*블럭 4번*/
+.box4{
+    width: 100%;
+    height: 1006px;
+}
+.con4{
+    width: 1100px;
+    height: 1006px;
+    margin: 0 auto;
+    text-align: center;
+}
+.con4 > img{
+    padding-top: 94px;
+}
+/*블럭 5번*/
+.box5{
+    width: 100%;
+    height: 519px;
+    background-color: #7CE6ED;
+}
+.con5{
+    width: 1100px;
+    height: 519px;
+    margin: 0 auto;
+    text-align: center;
+}
+.img04{
+text-align: center;
+padding-top: 50px;
+}
+.img05{
+ padding-top: 5px;
+}
